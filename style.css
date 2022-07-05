@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headre {
+    background: linear-gradient(rgba(83, 92, 104, .2), rgba(83, 92, 104, .3), rgba(45, 52, 54, .8), rgba(7, 8, 8, 0.9)), url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-tex {
+    width: 60%;
+    text-align: center;
+    margin-top: 191px;
+}
+
+.header-tex h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 46px;
+}
+
+.header-tex h1 span {
+    text-transform: uppercase;
+    color: rgba(232, 65, 24, 1.0);
+    letter-spacing: 5px;
+}
+
+.header-tex p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    word-spacing: 5px;
+    color: rgba(220, 221, 225, 1.0);
+    margin-bottom: 38px;
+}
+
+.header-tex button {
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff5959;
+    border: none;
+    border-radius: 10px;
+    word-spacing: 5px;
+    margin-bottom: 178px;
+}
+
+
+/*======== section 1 end==========*/
+
+.section-2-body {
+    background: linear-gradient(rgba(99, 110, 114, .1), rgba(13, 15, 15, 0.9)), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-body button {
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff5959;
+    border: none;
+    border-radius: 10px;
+    word-spacing: 5px;
+    margin-bottom: 178px;
+    margin-top: 30px;
+}
+
+.section-2-body-text {
+    width: 60%;
+    text-align: center;
+    margin-top: 148px;
+}
+
+.section-2-body-text h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 60px;
+    color: rgb(252, 252, 252);
+    margin-bottom: 40px;
+}
+
+.section-2-body-text p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(189, 189, 192);
+    margin-bottom: 38px;
+}
+
+.section-2-body-amount {
+    width: 100%;
+    padding-top: 55px;
+    border-bottom: 1px solid rgba(127, 143, 166, 1.0);
+}
+
+.section-2-body-amount p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(189, 189, 192);
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.amount-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.amount-1 {
+    width: 10%;
+    padding: 53px 26px;
+    background-color: rgba(128, 130, 134, 0.5);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    color: #eeeeee;
+}
+
+.active {
+    background-color: rgba(255, 89, 89, .1);
+    border: 2px solid rgba(255, 89, 89, 1.0);
+    color: rgb(250, 54, 54);
+}
+
+
+/*======section 2 end=====*/
