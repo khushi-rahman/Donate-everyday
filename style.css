@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .headre {
     background: linear-gradient(rgba(83, 92, 104, .2), rgba(83, 92, 104, .3), rgba(45, 52, 54, .8), rgba(7, 8, 8, 0.9)), url(images/donation9.jpg);
     background-repeat: no-repeat;
@@ -59,6 +63,12 @@
     border-radius: 10px;
     word-spacing: 5px;
     margin-bottom: 178px;
+    box-shadow: 10px 10px 10px rgb(26, 30, 34);
+    transition: .6s;
+}
+
+.header-tex button:hover {
+    transform: scaleX(1.1);
 }
 
 
@@ -88,6 +98,12 @@
     word-spacing: 5px;
     margin-bottom: 178px;
     margin-top: 30px;
+    box-shadow: 5px 5px 15px rgba(127, 143, 166, 1.0);
+    transition: .6s;
+}
+
+.section-2-body button:hover {
+    transform: scaleX(1.1);
 }
 
 .section-2-body-text {
@@ -145,6 +161,13 @@
     font-weight: 700;
     font-size: 25px;
     color: #eeeeee;
+    box-shadow: 10px 10px 10px rgba(255, 89, 89, 1.0);
+    border: 2px solid rgb(255, 255, 255);
+    transition: .6s;
+}
+
+.amount-1:hover {
+    transform: scale(1.1);
 }
 
 .active {
@@ -155,3 +178,297 @@
 
 
 /*======section 2 end=====*/
+
+.section-3-plan {
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 103px 0 135px;
+    align-items: center;
+}
+
+.block-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.donation-plan {
+    width: 60%;
+}
+
+.donation-plan h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.donation-plan p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(74, 74, 77);
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.donation-option {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option1 {
+    width: 25%;
+    padding: 65px 30px 65px;
+    text-align: start;
+    background-color: #edf5f6;
+    box-shadow: 10px 10px 10px #daecee;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: .6s;
+}
+
+.option1:hover {
+    transform: scale(1.1);
+}
+
+.option1 img {
+    margin-bottom: 45px;
+}
+
+.option1 h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.option1 p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(74, 74, 77);
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.option2 {
+    background-color: #ffeeee;
+    box-shadow: 15px 10px 10px #fadbdb;
+}
+
+.option3 {
+    background-color: #fff4d6;
+    box-shadow: 15px 10px 10px #fff0c7;
+}
+
+
+/*======section 3 end=====*/
+
+.section-about {
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+    padding-top: 128px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.section-about-deteils {
+    width: 40%;
+    height: 367px;
+}
+
+.section-about-deteils h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 45px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.section-about-deteils p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(74, 74, 77);
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.section-about-deteils button {
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff5959;
+    border: none;
+    border-radius: 10px;
+    word-spacing: 5px;
+    margin-bottom: 178px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 15px rgba(127, 143, 166, 1.0);
+    transition: .6s;
+}
+
+.section-about-deteils button:hover {
+    transform: scaleX(1.1);
+}
+
+.section-about-img {
+    width: 40%;
+    box-shadow: 10px 10px 15px rgba(127, 143, 166, 1.0);
+    height: 483px;
+    border-radius: 10px;
+    transition: .6s;
+}
+
+.section-about-img:hover {
+    transform: scale(1.1);
+}
+
+.section-about-img img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid rgba(127, 143, 166, 1.0);
+    height: 483px;
+}
+
+
+/*======== section 4 end=======*/
+
+.section-end {
+    background: linear-gradient(rgba(127, 143, 166, .1), rgba(113, 128, 147, .5)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+
+.section-end-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-end-text {
+    width: 60%;
+    text-align: center;
+}
+
+.section-end-text h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.section-end-text p {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(203, 203, 214);
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.section-end-mail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section-end-input {
+    width: 60%;
+    height: 201px;
+    background-color: rgba(255, 244, 214, .5);
+    text-align: center;
+    padding-top: 77px;
+    margin-bottom: 133px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.section-end-input ::placeholder {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(189, 189, 199);
+}
+
+.section-end-input a button {
+    padding: 21px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff5959;
+    border: none;
+    border-radius: 10px;
+    word-spacing: 5px;
+    margin-bottom: 178px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 15px rgb(28, 30, 32);
+    transition: .6s;
+}
+
+.section-end-input a button:hover {
+    transform: scaleX(1.1);
+}
+
+.section-end-input input {
+    padding: 22px 7px;
+    border-radius: 10px;
+    background-color: rgb(121, 117, 108);
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+
+/*=========end section=======*/
+
+footer {
+    background-color: dimgrey;
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(44, 27, 27);
+    margin-bottom: 40px;
+    transition: .6s;
+}
+
+footer a h3:hover {
+    color: #ff5959;
+}
