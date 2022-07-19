@@ -10,7 +10,7 @@ a {
 }
 
 .headre {
-    background: url(images/donation9.jpg);
+    background: url("../Donate-everyday/Images/donation9.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -86,7 +86,7 @@ hr {
 /*======== section 1 end==========*/
 
 .section-2-body {
-    background: url(images/donation5.jpg);
+    background: url("../Donate-everyday/Images/donation5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -371,7 +371,7 @@ hr {
 /*======== section 4 end=======*/
 
 .section-end {
-    background: url(images/donation13.jpg);
+    background: url("../Donate-everyday/Images/donation13.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
