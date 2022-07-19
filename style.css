@@ -10,12 +10,18 @@ a {
 }
 
 .headre {
-    background: linear-gradient(rgba(83, 92, 104, .2), rgba(83, 92, 104, .3), rgba(45, 52, 54, .8), rgba(7, 8, 8, 0.9)), url(images/donation9.jpg);
+    background: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: auto;
+}
+
+.header-backhround {
+    background: linear-gradient(rgba(83, 92, 104, .2), rgba(83, 92, 104, .3), rgba(45, 52, 54, .8), rgba(7, 8, 8, 0.9));
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +46,7 @@ a {
     text-transform: uppercase;
     color: rgba(232, 65, 24, 1.0);
     letter-spacing: 5px;
+    font-size: 38px;
 }
 
 .header-tex p {
@@ -71,16 +78,26 @@ a {
     transform: scaleX(1.1);
 }
 
+hr {
+    border: 2px solid rgba(127, 143, 166, 1.0);
+}
+
 
 /*======== section 1 end==========*/
 
 .section-2-body {
-    background: linear-gradient(rgba(99, 110, 114, .1), rgba(13, 15, 15, 0.9)), url(images/donation5.jpg);
+    background: url(images/donation5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: auto;
+}
+
+.section-2-background {
+    background: linear-gradient(rgba(99, 110, 114, .1), rgba(13, 15, 15, 0.9));
+    width: 100%;
+    height: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -174,6 +191,7 @@ a {
     background-color: rgba(255, 89, 89, .1);
     border: 2px solid rgba(255, 89, 89, 1.0);
     color: rgb(250, 54, 54);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, .5);
 }
 
 
@@ -353,13 +371,20 @@ a {
 /*======== section 4 end=======*/
 
 .section-end {
-    background: linear-gradient(rgba(127, 143, 166, .1), rgba(113, 128, 147, .5)), url(images/donation13.jpg);
+    background: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: auto;
+}
+
+.section-end-backgruond {
     padding-top: 70px;
+    padding-bottom: 77px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(127, 143, 166, .1), rgba(113, 128, 147, .5));
 }
 
 .section-end-head {
@@ -401,13 +426,24 @@ a {
 
 .section-end-input {
     width: 60%;
-    height: 201px;
+    height: 278px;
     background-color: rgba(255, 244, 214, .5);
-    text-align: center;
-    padding-top: 77px;
     margin-bottom: 133px;
     margin-top: 60px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-input {
+    width: 49%;
+    background-color: rgb(121, 117, 108);
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    align-items: center;
+    border-radius: 15px;
 }
 
 .section-end-input ::placeholder {
@@ -415,6 +451,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: rgb(189, 189, 199);
+    padding-left: 10px;
 }
 
 .section-end-input a button {
@@ -427,8 +464,6 @@ a {
     border: none;
     border-radius: 10px;
     word-spacing: 5px;
-    margin-bottom: 178px;
-    margin-top: 30px;
     box-shadow: 5px 5px 15px rgb(28, 30, 32);
     transition: .6s;
 }
